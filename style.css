@@ -77,9 +77,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(images/header_bg.png);
+    background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    height: 760px;
 }
 
 .header-des{
@@ -97,7 +98,7 @@ header{
 
 .Header-img img{
     position: relative;
-    bottom: -5px;
+    bottom: -43px;
 }
 
 main{
