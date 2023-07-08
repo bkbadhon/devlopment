@@ -1,0 +1,64 @@
+*{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-color{
+    background:#FD6E0A; 
+    border: none;
+}
+
+header{
+    background: #FFF8F3; 
+
+}
+
+.Top {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.Logo h1 {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+.Logo h1 span{
+    color:#FD6E0A;
+}
+
+.Menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.Menu ul li button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+
+}
+
+.Menu ul li button:hover{
+    background: black;
+    transition: all .4s;
+    cursor: pointer;
+}
